@@ -8,7 +8,6 @@ if __name__ == '__main__':
             c = s.count(i)
             b[i] = c
     a = sorted(b.items(), key=lambda x: x[1], reverse=True)
-    print (a)
     for i in a[:3]:
         print (i[0], i[1])
       
