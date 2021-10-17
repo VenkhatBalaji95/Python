@@ -6,7 +6,6 @@ z = []
 for i in range(a):
     c = list(map(int,input().split()))[:7]
     z.append(c)
-print (z)
 MAX = -1
 for i in product(*z):
     MAX = max(sum(map(lambda x: x*x, i))%b,MAX)
